@@ -7,7 +7,7 @@ Libraries: tidyverse, janitor, ggplot2
 
 Example Dataset shows qPCR results of a class that is ungrouped. This script separates the rows into 6 separate groups accordingly for calculation.
 Each group consists of triplicate data for target gene (TNF-a/IL-6) and a reference gene, GAPDH. The code finds the average of the 3 replicates of each gene of the group and the average Cq obtained from each group is taken as a replicate
-- e.g. There are 3 groups with TNF-a and 3 other groups with IL-6, finding average Cq from each group and taking it as average = there will be 3 replicates obtained.
+- e.g. There are 3 groups with TNF-a and 3 other groups with IL-6, finding average Cq from each group and taking its average = there will be 3 replicates obtained.
 
 ### Calculation
 * Filters GAPDH from the targets
