@@ -106,7 +106,7 @@ ggplot(fold_change_table, aes(x = `Target Gene` , y = `Relative Fold Change`, fi
     fontface = "bold",
     show.legend = FALSE
   ) +
-  # Custom y label for superscript adapted from stack overflow, labs doesn't work?
+  # Custom y label for superscript adapted from stack overflow
   ylab(expression(paste("Relative Fold Change ( ", 2, phantom()^{-Delta*Delta*Cq}, ")"))) +
   labs(
     title = "Relative Fold Change of Target Genes",
